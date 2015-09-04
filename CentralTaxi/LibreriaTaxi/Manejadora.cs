@@ -46,5 +46,18 @@ namespace LibreriaTaxi
             else
                 return "Viaje ya emitido";
         }
+
+        public string eliminar(Viaje cod)
+        {
+            if (existe(cod.Codigo) == -1)
+            {
+                Array.Resize(ref _viaje, _viaje.Length + 1);
+                _viaje[Viaje.Length - 1] = null;
+                return "Viaje eliminado";
+            }
+            else
+                return "Viaje no existe";
+        }
+
     }
 }
