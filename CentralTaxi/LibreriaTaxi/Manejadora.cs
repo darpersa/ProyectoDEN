@@ -7,12 +7,12 @@ namespace LibreriaTaxi
 {
     class Manejadora
     {
-        private Viaje[] _viaje;
+        private Taxi[] _taxi;
 
-        public Viaje[] Viaje
+        public Taxi[] Taxi
         {
-            get { return _viaje; }
-            set { _viaje = value; }
+            get { return _taxi; }
+            set { _taxi = value; }
         }
 
         public Manejadora()
@@ -22,41 +22,41 @@ namespace LibreriaTaxi
 
         public void Init()
         {
-            _viaje = new Viaje[0];
+            _taxi = new Taxi[0];
         }
 
         public int existe(int cert)
         {
-            for (int i = 0; i < _viaje.Length; i++)
+            for (int i = 0; i < _taxi.Length; i++)
             {
-                if (_viaje[i] != null && cert == _viaje[i].Codigo)
+                if (_taxi[i] != null && cert == _taxi[i].Codigo)
                     return i;
             }
             return -1;
         }
 
-        public string AgregarViaje(Viaje cod)
+        public string AgregarTaxi(Taxi cod)
         {
             if (existe(cod.Codigo) == -1)
             {
-                Array.Resize(ref _viaje, _viaje.Length + 1);
-                _viaje[Viaje.Length - 1] = cod;
-                return "Viaje agregado y tiene un valor de $" + cod.Valor;
+                Array.Resize(ref _taxi, _taxi.Length + 1);
+                _taxi[Taxi.Length - 1] = cod;
+                return "Taxi agregado y tiene un valor de $" + cod.Valor;
             }
             else
-                return "Viaje ya emitido";
+                return "Taxi ya emitido";
         }
 
-        public string eliminar(Viaje cod)
+        public string eliminar(Taxi cod)
         {
             if (existe(cod.Codigo) == -1)
             {
-                Array.Resize(ref _viaje, _viaje.Length + 1);
-                _viaje[Viaje.Length - 1] = null;
-                return "Viaje eliminado";
+                Array.Resize(ref _taxi, _taxi.Length + 1);
+                _taxi[Taxi.Length - 1] = null;
+                return "Taxi eliminado";
             }
             else
-                return "Viaje no existe";
+                return "Taxi no existe";
         }
 
     }

@@ -7,7 +7,6 @@ namespace LibreriaTaxi
 {
     class Viaje
     {
-        private Taxi _taxi;
         private Cliente _cliente;
         private int _valor;
         private int _codigo;
@@ -31,17 +30,10 @@ namespace LibreriaTaxi
             get { return _cliente; }
             set { _cliente = value; }
         }
-        
+     
 
-        public Taxi Taxi
+        public Taxi(Cliente cliente, int valor, int cod)
         {
-            get { return _taxi; }
-            set { _taxi = value; }
-        }
-
-        public Viaje(Taxi taxi, Cliente cliente, int valor, int cod)
-        {
-            _taxi = taxi;
             _cliente = cliente;
             _valor = valor;
             _codigo = cod;
