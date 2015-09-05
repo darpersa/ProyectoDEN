@@ -7,12 +7,12 @@ namespace LibreriaTaxi
 {
     class Manejadora
     {
-        private Taxi[] _taxi;
+        private Viaje[] _viaje;
 
-        public Taxi[] Taxi
+        public Viaje[] Viaje
         {
-            get { return _taxi; }
-            set { _taxi = value; }
+            get { return _viaje; }
+            set { _viaje = value; }
         }
 
         public Manejadora()
@@ -22,42 +22,32 @@ namespace LibreriaTaxi
 
         public void Init()
         {
-            _taxi = new Taxi[0];
+            _viaje = new Viaje[0];
         }
 
         public int existe(int cert)
         {
-            for (int i = 0; i < _taxi.Length; i++)
+            for (int i = 0; i < _viaje.Length; i++)
             {
-                if (_taxi[i] != null && cert == _taxi[i].Codigo)
+                if (_viaje[i] != null && cert == _viaje[i].Codigo)
                     return i;
             }
             return -1;
         }
 
-        public string AgregarTaxi(Taxi cod)
+        public string AgregarViaje(Viaje cod)
         {
             if (existe(cod.Codigo) == -1)
             {
-                Array.Resize(ref _taxi, _taxi.Length + 1);
-                _taxi[Taxi.Length - 1] = cod;
-                return "Taxi agregado y tiene un valor de $" + cod.Valor;
+                Array.Resize(ref _viaje, _viaje.Length + 1);
+                _viaje[Viaje.Length - 1] = cod;
+                return "Viaje agregado y tiene un valor de $" + cod.Valor;
             }
             else
-                return "Taxi ya emitido";
+                return "Viaje ya emitido";
         }
 
-        public string eliminar(Taxi cod)
-        {
-            if (existe(cod.Codigo) == -1)
-            {
-                Array.Resize(ref _taxi, _taxi.Length + 1);
-                _taxi[Taxi.Length - 1] = null;
-                return "Taxi eliminado";
-            }
-            else
-                return "Taxi no existe";
-        }
+        public 
 
     }
 }

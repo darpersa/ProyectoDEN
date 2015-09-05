@@ -9,14 +9,6 @@ namespace LibreriaTaxi
     {
         private String _patente;
         private String _conductor;
-        private Viaje[] _viaje;
-
-        public Viaje[] Viaje
-        {
-            get { return _viaje; }
-            set { _viaje = value; }
-        }
-        
 
         public String Conductor
         {
@@ -30,12 +22,12 @@ namespace LibreriaTaxi
             get { return _patente; }
             set { _patente = value; }
         }
+        
 
         public Taxi(String patente, String conductor)
         {
             _patente = patente;
             _conductor = conductor;
-            _viaje = new Viaje[0];
         }
 
       
