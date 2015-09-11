@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibreriaTaxi", "LibreriaTaxi\LibreriaTaxi.csproj", "{C033C7AD-7EC2-446B-845F-A0CA499AC764}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Navegacion", "Navegacion\Navegacion.csproj", "{3C9C6919-F3A7-4B43-AD77-706F665376AE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppWeb", "AppWeb\AppWeb.csproj", "{0B4E2195-E735-47DC-834E-81B61A1BBC21}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,10 +15,10 @@ Global
 		{C033C7AD-7EC2-446B-845F-A0CA499AC764}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C033C7AD-7EC2-446B-845F-A0CA499AC764}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C033C7AD-7EC2-446B-845F-A0CA499AC764}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3C9C6919-F3A7-4B43-AD77-706F665376AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3C9C6919-F3A7-4B43-AD77-706F665376AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3C9C6919-F3A7-4B43-AD77-706F665376AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3C9C6919-F3A7-4B43-AD77-706F665376AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B4E2195-E735-47DC-834E-81B61A1BBC21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B4E2195-E735-47DC-834E-81B61A1BBC21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B4E2195-E735-47DC-834E-81B61A1BBC21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B4E2195-E735-47DC-834E-81B61A1BBC21}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

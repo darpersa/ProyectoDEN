@@ -7,45 +7,33 @@ namespace LibreriaTaxi
 {
     class Manejadora
     {
-        private Viaje[] _viaje;
+        private List<Taxi> _taxi;
+        private List<Cliente> _cliente;
+        private Viaje _viaje;
 
-        public Viaje[] Viaje
+        public Manejadora(Viaje viaje)
         {
-            get { return _viaje; }
-            set { _viaje = value; }
+            _taxi = new List<Taxi>();
+            _cliente = new List<Cliente>();
+            _viaje = viaje;
         }
 
-        public Manejadora()
+        public int existe(String cod)
         {
-            this.Init();
+            if (_viaje.Codigo.CompareTo(cod) == 0)
+                return 1;
+            else
+                return -1;
         }
 
-        public void Init()
-        {
-            _viaje = new Viaje[0];
-        }
-
-        public int existe(int cert)
-        {
-            for (int i = 0; i < _viaje.Length; i++)
-            {
-                if (_viaje[i] != null && cert == _viaje[i].Codigo)
-                    return i;
-            }
-            return -1;
-        }
-
-        public string AgregarViaje(Viaje cod)
+        public String agregar(Viaje cod)
         {
             if (existe(cod.Codigo) == -1)
             {
-                Array.Resize(ref _viaje, _viaje.Length + 1);
-                _viaje[Viaje.Length - 1] = cod;
-                return "Viaje agregado y tiene un valor de $" + cod.Valor;
+                _taxi.Add(Viaje);
             }
             else
-                return "Viaje ya emitido";
+                return "El viaje no existe";
         }
-
     }
 }
