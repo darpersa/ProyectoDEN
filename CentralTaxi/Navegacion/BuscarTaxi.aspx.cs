@@ -13,5 +13,16 @@ namespace Navegacion
         {
 
         }
+
+        protected void btnRefrescar_Click(object sender, EventArgs e)
+        {
+            if (rdbConductor.Checked)
+                lblTmpBusca.Text = "Conductor";
+            else if (rdbPatente.Checked)
+                lblTmpBusca.Text = "Patente";
+
+        }
+
+        
     }
 }

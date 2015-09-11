@@ -47,7 +47,5 @@ namespace LibreriaTaxi
                 return "Viaje ya emitido";
         }
 
-        public 
-
     }
 }
