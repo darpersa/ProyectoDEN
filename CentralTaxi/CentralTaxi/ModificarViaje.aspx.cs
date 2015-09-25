@@ -21,6 +21,11 @@ namespace CentralTaxi
                 txtDireccionInicio.Text = viaje.DireccionInicio;
                 txtDireccionFinal.Text = viaje.DirecconFinal;
             }
+            else
+            {
+                limpiar();
+            }
+
         }
 
         protected void btnModificar_Click(object sender, EventArgs e)
@@ -31,6 +36,11 @@ namespace CentralTaxi
             viaje.DireccionInicio = txtDireccionInicio.Text;
             viaje.DirecconFinal = txtDireccionFinal.Text;
 
+            limpiar();
+        }
+
+        public void limpiar()
+        {
             txtId.Text = "";
             lblId.Text = "";
             txtNombre.Text = "";

@@ -1,4 +1,0 @@
-C:\Users\renca.DUOCACAD\Desktop\ProyectoDEN-master\CentralTaxi\LibreriaTaxi\bin\Debug\LibreriaTaxi.dll
-C:\Users\renca.DUOCACAD\Desktop\ProyectoDEN-master\CentralTaxi\LibreriaTaxi\bin\Debug\LibreriaTaxi.pdb
-C:\Users\renca.DUOCACAD\Desktop\ProyectoDEN-master\CentralTaxi\LibreriaTaxi\obj\Debug\LibreriaTaxi.dll
-C:\Users\renca.DUOCACAD\Desktop\ProyectoDEN-master\CentralTaxi\LibreriaTaxi\obj\Debug\LibreriaTaxi.pdb
