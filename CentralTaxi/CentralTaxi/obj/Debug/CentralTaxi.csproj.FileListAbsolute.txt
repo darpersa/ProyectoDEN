@@ -1,0 +1,7 @@
+C:\Users\renca.DUOCACAD\Desktop\CentralTaxi\CentralTaxi\bin\CentralTaxi.dll
+C:\Users\renca.DUOCACAD\Desktop\CentralTaxi\CentralTaxi\bin\CentralTaxi.pdb
+C:\Users\renca.DUOCACAD\Desktop\CentralTaxi\CentralTaxi\bin\BibliotecaTaxi.dll
+C:\Users\renca.DUOCACAD\Desktop\CentralTaxi\CentralTaxi\bin\BibliotecaTaxi.pdb
+C:\Users\renca.DUOCACAD\Desktop\CentralTaxi\CentralTaxi\obj\Debug\CentralTaxi.csprojResolveAssemblyReference.cache
+C:\Users\renca.DUOCACAD\Desktop\CentralTaxi\CentralTaxi\obj\Debug\CentralTaxi.dll
+C:\Users\renca.DUOCACAD\Desktop\CentralTaxi\CentralTaxi\obj\Debug\CentralTaxi.pdb

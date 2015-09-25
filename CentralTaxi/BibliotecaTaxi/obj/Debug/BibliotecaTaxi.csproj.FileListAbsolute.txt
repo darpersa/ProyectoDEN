@@ -1,0 +1,4 @@
+C:\Users\renca.DUOCACAD\Desktop\CentralTaxi\BibliotecaTaxi\bin\Debug\BibliotecaTaxi.dll
+C:\Users\renca.DUOCACAD\Desktop\CentralTaxi\BibliotecaTaxi\bin\Debug\BibliotecaTaxi.pdb
+C:\Users\renca.DUOCACAD\Desktop\CentralTaxi\BibliotecaTaxi\obj\Debug\BibliotecaTaxi.dll
+C:\Users\renca.DUOCACAD\Desktop\CentralTaxi\BibliotecaTaxi\obj\Debug\BibliotecaTaxi.pdb
